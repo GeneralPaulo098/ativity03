@@ -1,5 +1,0 @@
-movie = models.ManyToManyField(Movie)
-room = models.ForeignKey(Room,on_delete=models.CASCADE)
-hour = models.OneToOneField(Hour, on_delete=models.CASCADE)
-admin.site.register(Session)
-from . models import  Session
